@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.db
+*.db-journal
+
+# Arquivos locais e capturas de desenvolvimento
+code.png
+

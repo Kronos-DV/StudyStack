@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyTask - Organizador de Tarefas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>StudyTask</h1>
+
+        <p>
+            Organizador de Tarefas Estudantis
+        </p>
+    </header>
+
+    <main>
+
+        <section class="formulario">
+
+            <h2>Nova tarefa</h2>
+
+            <form id="formTarefa">
+
+                <label for="titulo">
+                    Título da tarefa
+                </label>
+
+                <input
+                    type="text"
+                    id="titulo"
+                    placeholder="Ex: Estudar JavaScript"
+                    required
+                >
+
+                <label for="materia">
+                    Matéria
+                </label>
+
+                <input
+                    type="text"
+                    id="materia"
+                    placeholder="Ex: Programação"
+                >
+
+                <label for="descricao">
+                    Descrição
+                </label>
+
+                <textarea
+                    id="descricao"
+                    placeholder="Descreva o que precisa ser feito"
+                ></textarea>
+
+                <label for="dataEntrega">
+                    Data de entrega
+                </label>
+
+                <input
+                    type="date"
+                    id="dataEntrega"
+                >
+
+                <button type="submit">
+                    Adicionar tarefa
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="tarefas">
+
+            <h2>Minhas tarefas</h2>
+
+            <div id="listaTarefas"></div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
