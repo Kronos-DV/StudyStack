@@ -1,4 +1,4 @@
-# StudyTask
+# StudyStack
 
 Organizador web de tarefas estudantis desenvolvido com Node.js, Express e SQLite.
 
@@ -47,7 +47,7 @@ npm run dev
 ## Estrutura
 
 ```text
-StudyTask/
+StudyStack/
 ├── public/
 │   ├── index.html
 │   ├── script.js
